@@ -13,6 +13,7 @@ body { background-color: rgb(48, 105, 67);
 }
 .Card img { 
     width: 100%;
+    
    
 }
 
@@ -27,4 +28,19 @@ body { background-color: rgb(48, 105, 67);
     display: flex;
    margin-right: 400px;
    margin-left: 400px;
+}
+.Card h2{
+    color: darkorange;
+}
+.Card p{
+color: gainsboro;
+}
+
+.Card:hover{
+    background-color: rgb(66, 151, 70);
+    transform: scale(1.05);
+}
+.Card .footer{
+    padding: 25px;
+    text-align: center;
 }
